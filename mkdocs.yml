@@ -1,0 +1,13 @@
+site_name: "Jeff Demo"
+site_description: "Jeff Demo Docs"
+docs_dir: "docs"
+repo_url:  "bcgov/devhub-documentation-demo-mar-18"
+edit_uri: edit/main/docs/
+plugins:
+    - techdocs-core
+    - ezlinks
+    - git-revision-date-localized
+markdown_extensions:
+    - md_in_html
+    -   mkpatcher:
+            location: patcher.py

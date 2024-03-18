@@ -1,0 +1,11 @@
+version: 1
+data_management_roles:
+  product_owner: Shea Phillips
+product_information:
+  ministry: CITZ
+  product_acronym: JDEMO
+  product_description: Jeff Demo Docs
+  product_name: Jeff Demo
+  program_area: Digital Office
+product_technology_information:
+  hosting_platforms: Private-Cloud-Openshift

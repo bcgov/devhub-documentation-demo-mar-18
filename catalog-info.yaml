@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jeff-demo
+  title: Jeff Demo
+  description: Jeff Demo Docs
+  annotations:
+    github.com/project-slug: bcgov/devhub-documentation-demo-mar-18
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/program_area: Digital Office
+    bcgovpubcode.gov.bc.ca/product_name: Jeff Demo
+    bcgovpubcode.gov.bc.ca/product_acronym: JDEMO
+    bcgovpubcode.gov.bc.ca/product_owner: Shea Phillips
+    developer.gov.bc.ca/source_template: default/docs-template
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: developer-experience
